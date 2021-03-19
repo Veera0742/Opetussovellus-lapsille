@@ -1,8 +1,7 @@
 # Opetussovellus-lapsille
-Yksinkertaisia numeroihin ja kirjaimiin liittyviä tehtäviä oppimisen tueksi
+Yksinkertaisia numeroihin ja kirjaimiin liittyviä tehtäviä oppimisen tueksi.
 
-Sovelluksen avulla voidaan järjestää verkkokursseja, joissa on tekstimateriaalia ja automaattisesti tarkastettavia tehtäviä. Jokainen käyttäjä on opettaja tai opiskelija.
-Sovelluksessa noin 5-6 vuotias lapsi voi vanhempiensa avustuksella päästä tutustumaan numeroihin, kirjaimiin, laskemiseen ja lukemiseen. Kurssit on jaoteltu eri luokkiin tehtävien ja vaikeustason mukaan. Kun tehtävä on ratkaistu oiken, siirrytään seuraavaan tehtävään. 
+Sovelluksessa noin 5-6 vuotias lapsi voi vanhempiensa avustuksella päästä tutustumaan numeroihin, kirjaimiin, laskemiseen ja lukemiseen. Kurssit on jaoteltu eri luokkiin tehtävien ja vaikeustason mukaan. Kun tehtävä on ratkaistu oiken, siirrytään seuraavaan tehtävään. Jokainen käyttäjä on opettaja tai opiskelija.
 
 Sovelluksen ominaisuuksia:
 
