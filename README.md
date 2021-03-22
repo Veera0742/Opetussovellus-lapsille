@@ -5,12 +5,12 @@ Sovelluksessa noin 5-6 vuotias lapsi voi vanhempiensa avustuksella päästä tut
 
 Sovelluksen ominaisuuksia:
 
--Käyttäjä voi kirjautua sisään ja ulos sekä luoda uuden tunnuksen.
--Opiskelija näkee listan kursseista ja voi liittyä kurssille.
--Opiskelija voi lukea kurssin tekstimateriaalia sekä ratkoa kurssin tehtäviä.
--Opiskelija pystyy näkemään tilaston, mitkä kurssin tehtävät hän on ratkonut.
--Opettaja pystyy luomaan uuden kurssin, muuttamaan olemassa olevaa kurssia ja poistamaan kurssin.
--Opettaja pystyy lisäämään kurssille tekstimateriaalia ja tehtäviä. Tehtävä voi olla ainakin monivalinta tai tekstikenttä, johon tulee kirjoittaa oikea vastaus.
--Opettaja pystyy näkemään kurssistaan tilaston, keitä opiskelijoita on kurssilla ja mitkä kurssin tehtävät kukin on ratkonut.
+1. Käyttäjä voi kirjautua sisään ja ulos sekä luoda uuden tunnuksen.
+2. Opiskelija näkee listan kursseista ja voi liittyä kurssille.
+3. Opiskelija voi lukea kurssin tekstimateriaalia sekä ratkoa kurssin tehtäviä.
+4. Opiskelija pystyy näkemään tilaston, mitkä kurssin tehtävät hän on ratkonut.
+5. Opettaja pystyy luomaan uuden kurssin, muuttamaan olemassa olevaa kurssia ja poistamaan kurssin.
+6. Opettaja pystyy lisäämään kurssille tekstimateriaalia ja tehtäviä. Tehtävä voi olla ainakin monivalinta tai tekstikenttä, johon tulee kirjoittaa oikea vastaus.
+7. Opettaja pystyy näkemään kurssistaan tilaston, keitä opiskelijoita on kurssilla ja mitkä kurssin tehtävät kukin on ratkonut.
 
  
