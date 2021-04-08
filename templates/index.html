@@ -1,18 +1,16 @@
 <!DOCTYPE html>
-{% if session.username %}
-<h2>Kiva nähdä taas {{ session.username }}</h2>
-<a href="/logout">Kirjaudu ulos</a>
-{% else %}
+{% extends "layout.html" %}
+{% block title %} Etusivu {% endblock %}
+{% block content %}
 <h2>TERVETULOA OPETUSSOVELLUKSEEN!</h2>
-<h4>Tämän pelin avulla voi perheen pienimmät opetella numeroita ja kirjaimia hauskassa ympäristössä<h4>
-<p>Kirjaudu sisään</p>
-<form action="/login" method="POST">
+<h4>Tämän pelin avulla voi perheen pienimmät opetella numeroita ja kirjaimia hauskassa ympäristössä</h4>
+<p> </p>
 <p>Tunnus:<br>
 <input type="text" name="username"></p>
 <p>Salasana:<br>
 <input type="password" name="password"></p>
-<input type="submit" value="Kirjaudu">
+<a href="/start">Kirjaudu sisään</a>
 <p> </p>
 <a href="/register">Uusi käyttäjä?</a>
 </form>
-{% endif %}
+{% endblock %}
