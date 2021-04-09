@@ -13,4 +13,6 @@ Sovelluksessa noin 5-6 vuotias lapsi voi vanhempiensa avustuksella päästä tut
 6. Opettaja pystyy lisäämään kurssille tekstimateriaalia ja tehtäviä. Tehtävä voi olla ainakin monivalinta tai tekstikenttä, johon tulee kirjoittaa oikea vastaus.
 7. Opettaja pystyy näkemään kurssistaan tilaston, keitä opiskelijoita on kurssilla ja mitkä kurssin tehtävät kukin on ratkonut.
 
- 
+**Tämän hetkinen tilanne 9.4.21** 
+
+Tällä hetkellä sovelluksessa voi luoda käyttäjätunnuksen ja salasanan sekä kirjautua sisään. Sisällössä on myös kaksi pelivaihtoehtoa, joita ei olla vielä kehitetty. Tällä hetkellä kaikki voivan vielä kirjautua sisään eikä tietokanta vielä toimi toivotusti. Uskon, että tästä hyvin keskeneräisestä sovelluksesta kuitenkin selviää sen pääpiirteet.  

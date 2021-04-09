@@ -5,24 +5,36 @@ from flask import render_template, request, session, redirect
 def index():
     return render_template("index.html")
 
-@app.route("/login",methods=["GET","POST"])
+@app.route("/register")
+def register():
+    return render_template("register.html")
+    if users.register(username, password):
+        return redirect("/")
+    else:
+        return render_template("mistake.html")
+
+@app.route("/login")
 def login():
-    if request.method == "GET":
-        return render_template("index.html")
+    return render_template("login.html")
+    username = request.form["username"]
+    password = request.form["password"]
+    if users.login(username, password):
+        return redirect("/start")
+    else: 
+        return render_template("mistake.html")
 
-    if request.method == "POST":
-        username = request.form["username"]
-        password = request.form["password"]
-    # TODO: check username and password
-    session["username"] = username
-    return redirect("/")
-
+@app.route("/start")
+def start():
+    return render_template("start.html")
+    
 @app.route("/logout")
 def logout():
-    del session["username"]
     return redirect("/")
 
-@app.route("/register", methods=["get","post"])
-def register():
-    if request.method == "GET":
-        return render_template("register.html")
+@app.route("/numbergame")
+def numbergame():
+    return render_template("numbergame.html")
+
+@app.route("/lettergame")
+def lettergame():
+    return render_template("lettergame.html")
