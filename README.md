@@ -15,4 +15,8 @@ Sovelluksessa noin 5-6 vuotias lapsi voi vanhempiensa avustuksella päästä tut
 
 **Tämän hetkinen tilanne 9.4.21** 
 
-Tällä hetkellä sovelluksessa voi luoda käyttäjätunnuksen ja salasanan sekä kirjautua sisään. Sisällössä on myös kaksi pelivaihtoehtoa, joita ei olla vielä kehitetty. Tällä hetkellä kaikki voivan vielä kirjautua sisään eikä tietokanta vielä toimi toivotusti. Uskon, että tästä hyvin keskeneräisestä sovelluksesta kuitenkin selviää sen pääpiirteet.  
+Tällä hetkellä sovelluksessa voi kirjautua sisään. Sisällössä on myös kaksi pelivaihtoehtoa, joita ei olla vielä kehitetty. Tällä hetkellä kaikki voivan vielä kirjautua sisään eikä tietokanta vielä toimi toivotusti. Uskon, että tästä hyvin keskeneräisestä sovelluksesta kuitenkin selviää sen pääpiirteet.
+
+Linkki [Herokuun](https://opetussovellus-lapsille.herokuapp.com/) 
+
+
