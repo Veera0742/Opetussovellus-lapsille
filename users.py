@@ -1,5 +1,5 @@
-from db import db
-from flask import session, request
+from db import *
+from flask import abort, request, session
 from werkzeug.security import check_password_hash, generate_password_hash
 import os
 
@@ -8,7 +8,7 @@ def register(username, password):
     sql = "INSERT INTO users (username, password) VALUES (:username, :password)"
     db.session.execute(sql, {"username":username, "password":hash_value})
     db.session.commit()
-    return redirect("/")
+    return redirect("/login")
 
 def login(username, password):
     sql = "SELECT password, id FROM users WHERE username=:username"
